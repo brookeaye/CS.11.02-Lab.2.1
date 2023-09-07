@@ -37,7 +37,7 @@ public class Main {
 
     // 2. add
     public static int add(int firstNum, int secondNum, int thirdNum, int fourthNum){
-        return firstNum + secondNum + thirdNum + fourthNum;
+        return add(add(firstNum, secondNum), add(thirdNum, fourthNum));
     }
 
     // 3. morningGreeting
